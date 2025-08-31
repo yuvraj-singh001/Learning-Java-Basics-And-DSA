@@ -1,4 +1,4 @@
-// import java.util.Scanner;
+import java.util.Scanner;
 
 // public class Test {
 //    public static void main(String[] args) {
@@ -32,8 +32,34 @@
 // }
 
 
+// public class Test{
+//    public static void main(String[] args) {
+//       int[] arr = {1,2,3,4,5};
+//       int c = 0, d = 0 ;
+//       for(int i = 0 ; i < arr.length ; i++){
+//          if(arr[i]%2 == 0){
+//             c++;
+//          }
+//          else {
+//             d++;
+//          }
+//       }
+//       if(c>d){
+//          System.out.println("even");
+//       }
+//       else if(c<d){
+//          System.out.println("odd");
+//       }
+//       else{
+//          System.out.println("tie");
+//       }
+//    }
+// }
+
+
+
 public class Test{
-   public static void main(String[] args) {
-      
-   }
+    public static void main(String[] args) {
+        
+    }
 }
