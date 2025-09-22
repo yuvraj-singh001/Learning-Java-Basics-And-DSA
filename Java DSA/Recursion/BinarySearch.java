@@ -21,6 +21,8 @@ public class BinarySearch {
         int l = 0;
         int h = arr.length;
         System.out.println(BS(arr, l, h, target));
+
+        sc.close();
     }
 
     static int BS(int arr[], int l , int h, int target){
@@ -30,12 +32,14 @@ public class BinarySearch {
             return mid;
         }
         else if(arr[mid]<target){
-            BS(arr,mid+1, h , target );
+            return BS(arr,mid+1, h , target );
         }
         else if(arr[mid]<target){
-            BS(arr,l, mid-1 , target );
+            return BS(arr,l, mid-1 , target );
         }
 
         return -1;
+
+        
     }
 }
